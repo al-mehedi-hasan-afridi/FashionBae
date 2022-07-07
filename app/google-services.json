@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923581966696",
+    "project_id": "fashionbae-8a4f1",
+    "storage_bucket": "fashionbae-8a4f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923581966696:android:d4a18b8c395edccc334edd",
+        "android_client_info": {
+          "package_name": "com.myfirst.fashionbae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923581966696-41c409fjqljvnp2sdrsmpr72hare54ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJcIKYsqKGrC8ZD0SUa6cO_eL37iy5bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923581966696-41c409fjqljvnp2sdrsmpr72hare54ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

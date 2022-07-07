@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FashionBae</string>
+    <string name="first_slide">Search Products</string>
+    <string name="second_slide">Order Your Favorite Product</string>
+    <string name="third_slide">Sit Back And Enjoy</string>
+    <string name="save">You can search any product you want. That will save you the hassle of scrolling the whole homepage.</string>
+    <string name="save1">You can add the product you like in the cart, select its quantity and then order them.</string>
+    <string name="save2">After ordering a product, we will handle everything for you. You do not have to worry about anything.</string>
+    <string name="skiptext">Skip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

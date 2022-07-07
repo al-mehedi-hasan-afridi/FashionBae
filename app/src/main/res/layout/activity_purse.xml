@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Purse"
+    android:background="#F4BC1C">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Purse"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/backbutton_pursetohome"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dp"
+                android:src="@drawable/backbutton_white_vector" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/glass_page_item_1"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:id="@+id/brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="41dp"
+                android:text="Brand Name: "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brandName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="113dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="41dp"
+                android:text="Gucci"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pricetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="41dp"
+                android:text="Price:"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="63dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="41dp"
+                android:text="10000"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/purse1" />
+
+            <Button
+                android:id="@+id/addtocartbutton"
+                android:layout_width="112dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/add_to_cart_button"
+                android:text="Add to Cart" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

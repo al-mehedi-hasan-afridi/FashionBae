@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable-v24/edit_text_bg.xml" value="0.115" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable-v24/next_button.xml" value="0.2165" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/add_to_cart_button.xml" value="0.2415" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/backbutton_vector.xml" value="0.132" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/customize_switch.xml" value="0.1" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/customized_radio_button.xml" value="0.2415" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/navigationbar_homepage.xml" value="0.1" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/navigationbar_shoppage.xml" value="0.2415" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/navigationdrawer_vector.xml" value="0.2165" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/search_button_background.xml" value="0.1" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/setting_background.xml" value="0.209" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/shop_page_cardview_background.xml" value="0.2415" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/shops_homepage_background.xml" value="0.2415" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/skipbutton_vector.xml" value="0.152" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/drawable/switch_off.xml" value="0.1" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_drawer_base.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_foot_wear.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_glasses.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_home_page.xml" value="0.4" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_jackets.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_navigation_drawer_setting.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_navigation_drawer_settings.xml" value="0.4" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_on_board.xml" value="0.264" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_pant.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_pant1.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_purse.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_purse2.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_shirt.xml" value="0.4" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_shop.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_tshirt.xml" value="0.4" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_watch.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/activity_watch1.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/item.xml" value="0.27447916666666666" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/layout/sliding_layout.xml" value="0.264" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/menu/main_drawer_manu.xml" value="0.264" />
+        <entry key="..\:/CSE299/FashionBae/app/src/main/res/menu/main_drawer_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable-v24/edit_text_bg.xml" value="0.1805" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1145" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/custom_email_vector.xml" value="0.177" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/custom_password_vector.xml" value="0.177" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/custom_username_vector.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/edit_text_bg.xml" value="0.1805" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/email_vector.xml" value="0.1805" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1145" />
+        <entry key="..\:/FashionBae/app/src/main/res/drawable/username_vector.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/font/archivo_black.xml" value="0.2851851851851852" />
+        <entry key="..\:/FashionBae/app/src/main/res/font/b612_mono_bold.xml" value="0.2851851851851852" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_drawer_base.xml" value="0.1334853090172239" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_foot_wear.xml" value="0.1334853090172239" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_on_board.xml" value="0.176" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_shirt.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/activity_tshirt.xml" value="0.22644927536231885" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/FashionBae/app/src/main/res/layout/sliding_layout.xml" value="0.264" />
+        <entry key="..\:/FashionBae/app/src/main/res/menu/main_drawer_manu.xml" value="0.26481481481481484" />
+        <entry key="..\:/FashionBae/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

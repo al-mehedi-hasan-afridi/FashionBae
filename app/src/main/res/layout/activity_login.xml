@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:background="#F4BC1C">
+
+
+    <TextView
+        android:id="@+id/SignIn_Txt"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-20dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="516dp"
+        android:gravity="center"
+        android:text="Log In"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/siEmail"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/custom_email_vector"
+        android:drawablePadding="10dp"
+        android:hint="Enter Email"
+        android:padding="15dp"
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/DimGray"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="424dp" />
+        />
+
+    <EditText
+        android:id="@+id/siPass"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Enter Password"
+        android:textColorHint="@color/DimGray"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="424dp"
+
+        android:drawableStart="@drawable/custom_password_vector"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="177dp"
+        android:background="@color/Black"
+        android:text="LogIn"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="147dp"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAsSignUpButton"
+        android:layout_width="133dp"
+        android:layout_height="19dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="147dp"
+        android:text="Create an account"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:src="@drawable/backbutton_vector" />
+
+    </RelativeLayout>
