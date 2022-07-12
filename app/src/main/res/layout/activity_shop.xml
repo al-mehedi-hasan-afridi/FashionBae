@@ -191,13 +191,13 @@
             android:layout_marginBottom="10dp"
             android:src="@drawable/artisti_shop" />
     </RelativeLayout>
+
         <RelativeLayout
             android:id="@+id/shop_page_shop_6"
             android:layout_width="380dp"
             android:layout_height="110dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="665dp"
-            android:layout_marginBottom="10dp"
             android:layout_marginRight="15dp"
             android:background="@drawable/shop_page_cardview_background">
 
@@ -220,6 +220,37 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="10dp"
                 android:src="@drawable/sailor_shop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/shop_page_shop_7"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="785dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Bata"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bata_shop" />
         </RelativeLayout>
     </RelativeLayout>
 </ScrollView>

@@ -1,18 +1,31 @@
 package com.myfirst.fashionbae.activities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.view.View;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
 
+import android.view.WindowManager;
+
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.myfirst.fashionbae.R;
 
+import java.util.ArrayList;
+
 public class Glasses extends AppCompatActivity {
+
+    RecyclerView recyclerView;
+    DatabaseReference database;
+    MyAdapterGlasses myAdapter;
+    ArrayList<GlassesData> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,22 +34,30 @@ public class Glasses extends AppCompatActivity {
         setContentView(R.layout.activity_glasses);
         getSupportActionBar().hide();
 
-        ImageView backbutton = findViewById(R.id.backbutton_glasstohome);
-        backbutton.setOnClickListener(view -> {
-            moveback(view);
-        } );
+        recyclerView =findViewById(R.id.pGlasses);
 
-        Button addtocart = findViewById(R.id.addtocartbutton);
-        addtocart.setOnClickListener(view -> {
-            clicked(view);
-        } );
-    }
+        database= FirebaseDatabase.getInstance().getReference().child("Glass");
 
-    public void moveback(View view){
-        startActivity(new Intent(Glasses.this, com.myfirst.fashionbae.activities.HomePage.class));
-    }
-    public void clicked(View view){
-        Toast.makeText(Glasses.this, "Product added to cart", Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(Glasses.this, com.myfirst.fashionbae.activities.HomePage.class));
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        list=new ArrayList<>();
+        myAdapter =new MyAdapterGlasses(this,list);
+        recyclerView.setAdapter(myAdapter);
+
+        database.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot:snapshot.getChildren()){
+                    GlassesData data =dataSnapshot.getValue(GlassesData.class);
+                    list.add(data);
+                }
+                myAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 }

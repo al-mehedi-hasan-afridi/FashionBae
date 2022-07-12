@@ -16,7 +16,9 @@
         android:layout_height="match_parent"
         app:headerLayout="@layout/activity_drawer_base"
         app:menu="@menu/main_drawer_menu"
-        android:layout_gravity="start"/>
+        android:layout_gravity="start">
+
+    </com.google.android.material.navigation.NavigationView>
     <!--layout_gravity="start" drawer page will appear in full screen-->
     <ScrollView
         android:layout_width="match_parent"
@@ -80,7 +82,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="41dp"
@@ -97,6 +99,7 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="10dp"
                 android:src="@drawable/shop_image" />
+
         </RelativeLayout>
 
         <TextView

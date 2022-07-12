@@ -1,7 +1,7 @@
 package com.myfirst.fashionbae.activities;
 
-public class TshirtData {
-    String brandName,price,size;
+public class GlassesData {
+    String brandName,price;
 
     public String getBrandName() {
 
@@ -11,14 +11,5 @@ public class TshirtData {
 
         return price;
     }
-
-
-
-
-    public String getSize() {
-
-        return size;
-    }
-
 
 }

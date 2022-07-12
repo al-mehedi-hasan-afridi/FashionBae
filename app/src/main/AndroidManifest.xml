@@ -12,14 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FashionBae">
-
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Navigation_Drawer_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Navigation_Drawer_Setting"
+            android:exported="false" />
         <activity
             android:name=".activities.Purse"
             android:exported="false" />
         <activity
             android:name=".activities.Pant"
             android:exported="false" />
-
         <activity
             android:name=".activities.Watch"
             android:exported="false" />

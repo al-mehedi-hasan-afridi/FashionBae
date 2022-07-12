@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    tools:context=".DrawerBaseActivity"
+    tools:context=".activities.DrawerBaseActivity"
     android:background="@drawable/navigationbar_homepage">
 
     <ImageView
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="115dp"
         android:layout_marginLeft="18dp"
-        android:text="Al Mehedi Hasan"
+        android:text= "Mehedi Hasan"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold" />

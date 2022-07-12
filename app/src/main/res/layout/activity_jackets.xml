@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,317 +9,44 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/pTshirt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <RelativeLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/black">
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Jackets"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="Jacket"
-                android:textColor="@color/white"
-                android:textSize="30dp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/backbutton_jackettohome"
-                android:layout_width="48dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="8dp"
-                android:padding="5dp"
-                android:src="@drawable/backbutton_white_vector" />
-
-        </RelativeLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="50dp"
-            android:background="@color/white"/>
-
-        <RelativeLayout
-            android:id="@+id/jacket_page_item_1"
-            android:layout_width="380dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="65dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/shop_page_cardview_background">
-
-            <TextView
-                android:id="@+id/brand"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="41dp"
-                android:text="Brand Name: "
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/brandName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="113dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="41dp"
-                android:text="Denim"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/pricetext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="41dp"
-                android:text="Price:"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/price"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="41dp"
-                android:text="2000"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/sizetext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="41dp"
-                android:text="Size:"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="100dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="22dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/jackets" />
-
-            <Button
-                android:id="@+id/addtocartbutton"
-                android:layout_width="112dp"
-                android:layout_height="27dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="75dp"
-                android:background="@drawable/add_to_cart_button"
-                android:text="Add to Cart" />
-
-            <RadioGroup
-                android:id="@+id/radiogroupShirt"
-                android:layout_width="175dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="50dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButtonSmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="S"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-                <!-- android:layout_marginLeft="50dp"
-                 android:layout_marginTop="50dp"
-                 android:buttonTint="@color/white"
-                 android:text="S"
-                 android:textColor="@color/white"
-                 android:textStyle="bold" /> -->
-
-                <RadioButton
-                    android:id="@+id/radioButtonMedium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="M"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-
-                <RadioButton
-                    android:id="@+id/radioButtonLarge"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="L"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-
-                <RadioButton
-                    android:id="@+id/radioButtonXL"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:buttonTint="@color/white"
-                    android:text="XL"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-            </RadioGroup>
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/jacket_page_item_2"
-            android:layout_width="380dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="180dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/shop_page_cardview_background">
-
-            <TextView
-                android:id="@+id/brand1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="41dp"
-                android:text="Brand Name: "
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/brandName1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="113dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="41dp"
-                android:text="Le Reve"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/pricetext1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="41dp"
-                android:text="Price:"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/price1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="28dp"
-                android:layout_marginBottom="41dp"
-                android:text="2500"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/sizetext1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="41dp"
-                android:text="Size:"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="100dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="22dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/jackets1" />
-
-            <Button
-                android:id="@+id/addtocartbutton1"
-                android:layout_width="112dp"
-                android:layout_height="27dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="75dp"
-                android:background="@drawable/add_to_cart_button"
-                android:text="Add to Cart" />
-
-            <RadioGroup
-                android:id="@+id/radiogroupShirt1"
-                android:layout_width="175dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="50dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioButtonSmall1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="S"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-                <!-- android:layout_marginLeft="50dp"
-                 android:layout_marginTop="50dp"
-                 android:buttonTint="@color/white"
-                 android:text="S"
-                 android:textColor="@color/white"
-                 android:textStyle="bold" /> -->
-
-                <RadioButton
-                    android:id="@+id/radioButtonMedium1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="M"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-
-                <RadioButton
-                    android:id="@+id/radioButtonLarge1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/white"
-                    android:text="L"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-
-                <RadioButton
-                    android:id="@+id/radioButtonXL1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:buttonTint="@color/white"
-                    android:text="XL"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"/>
-            </RadioGroup>
-        </RelativeLayout>
+        <ImageView
+            android:id="@+id/backbutton_Jacketstohome"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:src="@drawable/backbutton_white_vector" />
 
     </RelativeLayout>
 
-</ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pJacket"
+        android:layout_width="408dp"
+        android:layout_height="678dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
