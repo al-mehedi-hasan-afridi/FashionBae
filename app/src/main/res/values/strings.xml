@@ -7,6 +7,7 @@
     <string name="save1">You can add the product you like in the cart, select its quantity and then order them.</string>
     <string name="save2">After ordering a product, we will handle everything for you. You do not have to worry about anything.</string>
     <string name="skiptext">Skip</string>
+    <string name="password">Enter Password</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

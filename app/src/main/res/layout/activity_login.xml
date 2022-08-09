@@ -17,7 +17,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-20dp"
         android:layout_marginEnd="215dp"
-        android:layout_marginBottom="516dp"
+        android:layout_marginBottom="522dp"
         android:gravity="center"
         android:text="Log In"
         android:textColor="#000000"
@@ -44,11 +44,11 @@
         android:textColorHint="@color/DimGray"
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="424dp" />
-        />
+
 
     <EditText
         android:id="@+id/siPass"
-        android:layout_width="294dp"
+        android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -57,16 +57,16 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="304dp"
         android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/custom_password_vector"
+        android:longClickable="false"
+        android:drawablePadding="10dp"
         android:hint="Enter Password"
-        android:textColorHint="@color/DimGray"
         android:inputType="textPassword"
         android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#696969"
         tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="424dp"
-
-        android:drawableStart="@drawable/custom_password_vector"
-        android:drawablePadding="10dp"
-        android:textColor="@color/white"/>
+        tools:layout_editor_absoluteY="424dp" />
 
     <Button
         android:id="@+id/logInButton"
@@ -84,30 +84,47 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="147dp"
+        android:text="Don't have an account?"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAsSignUpButton"
+        android:layout_width="199dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="146dp"
+        android:text="Create an account"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="28dp"
-        android:layout_marginEnd="228dp"
-        android:layout_marginBottom="147dp"
-        android:text="Don't have an account?"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="120dp"
+        android:text="Forgot Password?"
         android:textColor="@color/black"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textViewAsSignUpButton"
-        android:layout_width="133dp"
-        android:layout_height="19dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="176dp"
-        android:layout_marginEnd="102dp"
-        android:layout_marginBottom="147dp"
-        android:text="Create an account"
-        android:textColor="@color/black"
+        android:textSize="16dp"
         android:textStyle="bold" />
 
     <ImageView

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.Navigation_Drawer_Profile"
+    tools:context=".activities.Profile"
     android:background="#F4BC1C">
 
     <RelativeLayout
@@ -22,7 +22,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/backbutton_settingtohome"
+            android:id="@+id/backbutton_profiletohome"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -42,7 +42,7 @@
         android:layout_width="370dp"
         android:layout_height="75dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="120dp"
         android:background="@drawable/shop_page_cardview_background">
 
         <TextView
@@ -51,29 +51,58 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:hint="Name"
+            android:hint="First Name"
             android:textColorHint="@color/DimGray"
             android:textSize="20dp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textViewFirstName"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="5dp"
-            android:text="Mehedi Hasan"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="370dp"
         android:layout_height="75dp"
-        android:layout_marginTop="180dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/shop_page_cardview_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Last Name"
+            android:textColorHint="@color/DimGray"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/shop_page_cardview_background">
 
         <TextView
@@ -88,47 +117,43 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textViewEmail"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="5dp"
-            android:text="mehedihasan@gmail.com"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="370dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/shop_page_cardview_background">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:hint="Password"
-            android:textColorHint="@color/DimGray"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="5dp"
-            android:text="mehedi"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-    </RelativeLayout>
+    <Button
+        android:id="@+id/changeEmailButton"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="127dp"
+        android:background="@color/Black"
+        android:text="Change Email"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="67dp"
+        android:background="@color/Black"
+        android:text="Change Password"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

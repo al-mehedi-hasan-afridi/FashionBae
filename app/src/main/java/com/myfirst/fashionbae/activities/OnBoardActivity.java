@@ -20,7 +20,6 @@ import com.myfirst.fashionbae.adapters.SliderAdapter;
 
 public class OnBoardActivity extends AppCompatActivity {
 
-
     ViewPager viewPager;
     LinearLayout dotsLayout;
 
@@ -29,11 +28,6 @@ public class OnBoardActivity extends AppCompatActivity {
     TextView[] dots;
     Animation animation;
     int currentposition;
-
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +63,7 @@ public class OnBoardActivity extends AppCompatActivity {
 
 
     }
-    private void adddots(int position){
+     private void adddots(int position){
         dots=new TextView[3];
         dotsLayout.removeAllViews();
         for(int i=0;i<dots.length;i++){

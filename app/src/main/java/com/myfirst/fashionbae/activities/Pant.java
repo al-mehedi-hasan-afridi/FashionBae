@@ -6,9 +6,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ImageView;
 
 
 import com.google.firebase.database.DataSnapshot;
@@ -26,6 +30,8 @@ public class Pant extends AppCompatActivity {
     DatabaseReference database;
     MyAdapterPant myAdapter;
     ArrayList<PantData> list;
+    Button addTocartBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +40,13 @@ public class Pant extends AppCompatActivity {
         setContentView(R.layout.activity_pant);
         getSupportActionBar().hide();
 
+        ImageView backbutton = findViewById(R.id.backbutton_panttohome);
+        backbutton.setOnClickListener(view -> {
+            moveback(view);
+        } );
+
         recyclerView =findViewById(R.id.pPant);
+        addTocartBtn=findViewById(R.id.addtocartbutton);
 
         database= FirebaseDatabase.getInstance().getReference().child("Pant");
 
@@ -43,6 +55,17 @@ public class Pant extends AppCompatActivity {
         list=new ArrayList<>();
         myAdapter =new MyAdapterPant(this,list);
         recyclerView.setAdapter(myAdapter);
+
+      //  addTocartBtn.setOnClickListener(new View.OnClickListener() {
+         //   @Override
+         //   public void onClick(View view) {
+         //       Intent intent=new Intent(Pant.this,AddToCart.class);
+                //intent.put;
+
+
+            //    startActivity(intent);
+          //  }
+      //  });
 
         database.addValueEventListener(new ValueEventListener() {
             @Override
@@ -59,5 +82,9 @@ public class Pant extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void moveback(View view){
+        startActivity(new Intent(Pant.this, com.myfirst.fashionbae.activities.HomePage.class));
     }
 }

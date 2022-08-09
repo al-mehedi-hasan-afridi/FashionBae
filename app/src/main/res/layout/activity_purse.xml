@@ -38,14 +38,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/pPurse"
-        android:layout_width="408dp"
-        android:layout_height="678dp"
+        android:layout_width="409dp"
+        android:layout_height="629dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

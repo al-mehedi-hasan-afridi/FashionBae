@@ -13,13 +13,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FashionBae">
         <activity
-            android:name=".UserProfile"
+            android:name=".activities.AddWatch"
             android:exported="false" />
         <activity
-            android:name=".activities.Navigation_Drawer_Profile"
+            android:name=".activities.AddPurse"
             android:exported="false" />
         <activity
-            android:name=".activities.Navigation_Drawer_Setting"
+            android:name=".activities.AddJacket"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddGlass"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddFootwear"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddPant"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddTshirt"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShopLogIn"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShopSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShopHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddShirt"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FAQ"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Setting"
             android:exported="false" />
         <activity
             android:name=".activities.Purse"
@@ -29,9 +65,6 @@
             android:exported="false" />
         <activity
             android:name=".activities.Watch"
-            android:exported="false" />
-        <activity
-            android:name=".DrawerBaseActivity"
             android:exported="false" />
         <activity
             android:name=".activities.ShopActivity"

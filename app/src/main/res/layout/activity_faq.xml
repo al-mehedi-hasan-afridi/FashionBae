@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.FAQ"
+    android:background="#F4BC1C">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:background="@color/black">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center"
+               android:text="FAQ"
+               android:textColor="@color/white"
+               android:textSize="30dp"
+               android:textStyle="bold" />
+
+           <ImageView
+               android:id="@+id/backbutton_faqtohome"
+               android:layout_width="48dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="8dp"
+               android:padding="5dp"
+               android:src="@drawable/backbutton_white_vector" />
+       </RelativeLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:layout_marginTop="50dp"
+           android:background="@color/white"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="60dp"
+           android:layout_marginLeft="15dp"
+           android:text="Q: How do I get a new password?"
+           android:textSize="22dp"
+           android:textColor="@color/black"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="90dp"
+           android:text="A: In the profile page, there is a button named Change Password. You can provide the password you want and that will be used as your new password."
+           android:textColor="@color/black"
+           android:textSize="22dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="210dp"
+           android:layout_marginLeft="15dp"
+           android:text="Q: What if I need to return something?"
+           android:textSize="22dp"
+           android:textColor="@color/black"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="240dp"
+           android:layout_marginLeft="15dp"
+           android:text="A: No worries! Contact us right away and we'll help guide you through the process - we'll send you a mailer to send the item back."
+           android:textSize="22dp"
+           android:textColor="@color/black"/>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="360dp"
+           android:text="Q: How to login if I forget my password?"
+           android:textColor="@color/black"
+           android:textSize="22dp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="400dp"
+           android:layout_marginLeft="15dp"
+           android:text="A: In the login page, there is a option Forgot Password. You can provide your mail and we will send you a link to reset your password. You can simply login using your new password."
+           android:textSize="22dp"
+           android:textColor="@color/black"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="540dp"
+           android:layout_marginLeft="15dp"
+           android:text="Q: How to change my email address?"
+           android:textSize="22dp"
+           android:textColor="@color/black"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="580dp"
+           android:layout_marginLeft="15dp"
+           android:text="A: In the profile page, there is a button named Change Email. You can provide the email you want and that will be used as your new email."
+           android:textSize="22dp"
+           android:textColor="@color/black"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="700dp"
+           android:layout_marginLeft="15dp"
+           android:text="Q: How to verify my email address?"
+           android:textSize="22dp"
+           android:textColor="@color/black"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="740dp"
+           android:layout_marginLeft="15dp"
+           android:text="A: After signing up, you will get a mail in your email. There a link will be given. If you click the link, your email will be verified"
+           android:textSize="22dp"
+           android:textColor="@color/black"/>
+   </RelativeLayout>
+</ScrollView>

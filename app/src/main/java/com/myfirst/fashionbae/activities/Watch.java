@@ -6,9 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 
 import com.google.firebase.database.DataSnapshot;
@@ -34,6 +37,10 @@ public class Watch extends AppCompatActivity {
         setContentView(R.layout.activity_watch);
         getSupportActionBar().hide();
 
+        ImageView backbutton = findViewById(R.id.backbutton_Watchtohome);
+        backbutton.setOnClickListener(view -> {
+            moveback(view);
+        } );
         recyclerView =findViewById(R.id.pWatch);
 
         database= FirebaseDatabase.getInstance().getReference().child("Watch");
@@ -59,5 +66,9 @@ public class Watch extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void moveback(View view){
+        startActivity(new Intent(Watch.this, com.myfirst.fashionbae.activities.HomePage.class));
     }
 }

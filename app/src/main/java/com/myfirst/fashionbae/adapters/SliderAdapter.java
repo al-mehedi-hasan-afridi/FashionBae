@@ -24,9 +24,9 @@ public class SliderAdapter extends PagerAdapter {
     }
     int imagesArray[]={
 
-            R.drawable.search_product,
-            R.drawable.order_your_favourite_product,
-            R.drawable.sit_back_and_enjoy_
+            R.drawable.fashionbaelogo1,
+            R.drawable.fashionbaelogo3,
+            R.drawable.fashionbaelogo2
 
     };
 

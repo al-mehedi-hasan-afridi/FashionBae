@@ -6,9 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 
 import com.google.firebase.database.DataSnapshot;
@@ -33,6 +36,11 @@ public class Purse extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_purse);
         getSupportActionBar().hide();
+
+        ImageView backbutton = findViewById(R.id.backbutton_pursetohome);
+        backbutton.setOnClickListener(view -> {
+            moveback(view);
+        } );
 
         recyclerView =findViewById(R.id.pPurse);
 
@@ -59,5 +67,9 @@ public class Purse extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void moveback(View view){
+        startActivity(new Intent(Purse.this, com.myfirst.fashionbae.activities.HomePage.class));
     }
 }

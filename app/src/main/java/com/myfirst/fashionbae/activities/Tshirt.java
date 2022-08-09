@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 
 import com.google.firebase.database.DataSnapshot;
@@ -33,6 +36,10 @@ public class Tshirt extends AppCompatActivity {
         setContentView(R.layout.activity_tshirt);
         getSupportActionBar().hide();
 
+        ImageView backbutton = findViewById(R.id.backbutton_tshirttohome);
+        backbutton.setOnClickListener(view -> {
+            moveback(view);
+        } );
         recyclerView =findViewById(R.id.pTshirt);
 
         database= FirebaseDatabase.getInstance().getReference().child("Tshirt");
@@ -58,5 +65,9 @@ public class Tshirt extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void moveback(View view){
+        startActivity(new Intent(Tshirt.this, com.myfirst.fashionbae.activities.HomePage.class));
     }
 }

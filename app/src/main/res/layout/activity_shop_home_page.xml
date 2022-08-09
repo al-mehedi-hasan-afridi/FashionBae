@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ShopHomePage"
+    android:background="#F4BC1C">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:gravity="center"
+            android:text="Welcome!!"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonAddShirt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Shirt"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddTshirt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="260dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add T-shirt"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddPant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="320dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Pant"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddFootwear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="35dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Footwear"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddGlass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="440dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Glass"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddJacket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Jacket"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddPurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="560dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Purse"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAddWatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="620dp"
+            android:background="@color/Black"
+            android:text="Click Here To Add Watch"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/logout_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="365dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/logout_black_vector" />
+
+    </RelativeLayout>
+
+</ScrollView>

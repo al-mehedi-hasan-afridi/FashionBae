@@ -12,7 +12,6 @@
         android:layout_height="50dp"
         android:layout_marginBottom="3dp"
         android:background="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/pTshirt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -39,14 +38,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/pJacket"
-        android:layout_width="408dp"
-        android:layout_height="678dp"
+        android:layout_width="411dp"
+        android:layout_height="632dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

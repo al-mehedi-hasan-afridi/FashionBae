@@ -1,6 +1,7 @@
 package com.myfirst.fashionbae.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,8 +36,6 @@ public class MyAdapterFootwear extends RecyclerView.Adapter<MyAdapterFootwear.My
         holder.brandName.setText(footwear.getBrandName());
         holder.size.setText(footwear.getSize());
         holder.price.setText(footwear.getPrice());
-
-
     }
 
     @Override
