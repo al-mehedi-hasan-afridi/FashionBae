@@ -70,11 +70,11 @@
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:layout_marginTop="240dp"
            android:layout_marginLeft="15dp"
+           android:layout_marginTop="240dp"
            android:text="A: No worries! Contact us right away and we'll help guide you through the process - we'll send you a mailer to send the item back."
-           android:textSize="22dp"
-           android:textColor="@color/black"/>
+           android:textColor="@color/black"
+           android:textSize="22dp" />
 
 
        <TextView

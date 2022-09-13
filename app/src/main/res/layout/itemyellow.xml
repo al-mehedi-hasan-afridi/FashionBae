@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".activities.AddToCart">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.Yellow">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="40dp">
 
 
         <RelativeLayout
-            android:id="@+id/addToCart_page_item_1"
+            android:id="@+id/yellow_item_1"
             android:layout_width="380dp"
             android:layout_height="110dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
             android:background="@drawable/shop_page_cardview_background">
 
@@ -43,7 +45,7 @@
                 android:layout_marginLeft="113dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="41dp"
-                android:text="Easy"
+                android:text="Yellow"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -67,7 +69,7 @@
                 android:layout_marginLeft="63dp"
                 android:layout_marginTop="28dp"
                 android:layout_marginBottom="41dp"
-                android:text="2000"
+                android:text="2500"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -91,11 +93,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginEnd="250dp"
+                android:layout_marginEnd="270dp"
                 android:layout_marginBottom="40dp"
-                android:text="29,30,31"
+                android:text="S,M,L,Xl"
                 android:textColor="@color/white" />
-
 
             <ImageView
                 android:layout_width="130dp"
@@ -104,10 +105,19 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/pant1" />
+                android:src="@drawable/yellow_demo" />
 
+            <Button
+                android:id="@+id/addtocartbutton"
+                android:layout_width="112dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/add_to_cart_button"
+                android:text="Add to Cart" />
 
         </RelativeLayout>
     </RelativeLayout>
+
 
 </ScrollView>

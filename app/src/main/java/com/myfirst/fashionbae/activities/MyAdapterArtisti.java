@@ -1,13 +1,9 @@
 package com.myfirst.fashionbae.activities;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
 import com.myfirst.fashionbae.R;
 
 import androidx.annotation.NonNull;
@@ -15,30 +11,29 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class MyAdapterPant extends RecyclerView.Adapter<MyAdapterPant.MyViewHolder> {
+public class MyAdapterArtisti extends RecyclerView.Adapter<MyAdapterArtisti.MyViewHolder>{
 
     Context context;
-    ArrayList<PantData> list;
+    ArrayList<ArtistiData> list;
 
-    public MyAdapterPant(Context context, ArrayList<PantData> list) {
+    public MyAdapterArtisti(Context context, ArrayList<ArtistiData> list) {
         this.context = context;
         this.list = list;
     }
 
     @NonNull
     @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v= LayoutInflater.from(context).inflate(R.layout.itempant,parent,false);
-        return new MyViewHolder(v);
+    public MyAdapterArtisti.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View v= LayoutInflater.from(context).inflate(R.layout.itemartisti,parent,false);
+        return new MyAdapterArtisti.MyViewHolder(v);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        PantData pant=list.get(position);
-        holder.brandName.setText(pant.getBrandName());
-        holder.size.setText(pant.getSize());
-        holder.price.setText(pant.getPrice());
-      //  Glide.with(context).load(pant.getImageUrl()).into(holder.image);
+    public void onBindViewHolder(@NonNull MyAdapterArtisti.MyViewHolder holder, int position) {
+        ArtistiData artisti =list.get(position);
+        holder.brandName.setText(artisti.getBrandName());
+        holder.size.setText(artisti.getSize());
+        holder.price.setText(artisti.getPrice());
 
 
     }
@@ -50,14 +45,13 @@ public class MyAdapterPant extends RecyclerView.Adapter<MyAdapterPant.MyViewHold
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
         TextView brandName,size,price;
-        ImageView image;
+
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             brandName =itemView.findViewById(R.id.Bname);
             size=itemView.findViewById(R.id.size);
             price=itemView.findViewById(R.id.Price);
-           // image = itemView.findViewById(R.id.image);
 
         }
     }

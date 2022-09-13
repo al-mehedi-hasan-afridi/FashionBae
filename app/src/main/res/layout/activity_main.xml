@@ -78,20 +78,21 @@
         android:padding="5dp"
         android:src="@drawable/backbutton_vector" />
 
-    <Button
+    <TextView
         android:id="@+id/shopSignUp"
-        android:layout_width="356dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="46dp"
-        android:text="SIGN Up as SHOP"
-        android:background="@color/Black"
-        android:textColor="@color/white"
-        android:textSize="18dp"
+        android:layout_marginBottom="57dp"
+        android:gravity="center"
+        android:text="SIGN UP AS SHOP"
+        android:textColor="@color/black"
+        android:textSize="24dp"
         android:textStyle="bold" />
+
 
 </RelativeLayout>

@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FashionBae">
         <activity
+            android:name=".activities.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrderActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.AddWatch"
             android:exported="false" />
         <activity
@@ -49,6 +55,15 @@
             android:name=".activities.FAQ"
             android:exported="false" />
         <activity
+            android:name=".activities.Contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Return_policy"
+            android:exported="false" />
+        <activity
+            android:name=".activities.About_us"
+            android:exported="false" />
+        <activity
             android:name=".activities.AddToCart"
             android:exported="false" />
         <activity
@@ -80,6 +95,27 @@
             android:exported="false" />
         <activity
             android:name=".activities.Shirt"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Esctasy"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Yellow"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Lareve"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Catseye"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Artisti"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Sailor"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Bata"
             android:exported="false" />
         <activity
             android:name=".activities.Tshirt"

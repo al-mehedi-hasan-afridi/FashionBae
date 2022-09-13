@@ -42,158 +42,158 @@
         android:layout_marginTop="50dp"
         android:background="@color/white"/>
 
-    <RelativeLayout
-        android:id="@+id/shop_page_shop_1"
-        android:layout_width="380dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/shop_page_cardview_background">
+        <RelativeLayout
+            android:id="@+id/esctasy"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="41dp"
-            android:text="Ecstasy"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Ecstasy"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="22dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/ecstasy_shop" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/shop_page_shop_2"
-        android:layout_width="380dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="185dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/shop_page_cardview_background">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="41dp"
-            android:text="Yellow"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="22dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/yellow_shop" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/shop_page_shop_3"
-        android:layout_width="380dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="305dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/shop_page_cardview_background">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="41dp"
-            android:text="Le Reve"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="22dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/le_reve_shop" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/shop_page_shop_4"
-        android:layout_width="380dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="425dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/shop_page_cardview_background">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="41dp"
-            android:text="Cats Eye"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="22dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/cats_eye_shop" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/shop_page_shop_5"
-        android:layout_width="380dp"
-        android:layout_height="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="545dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/shop_page_cardview_background">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="41dp"
-            android:text="Artisti"
-            android:textColor="@color/white"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="100dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="22dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/artisti_shop" />
-    </RelativeLayout>
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ecstasy_shop" />
+        </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/shop_page_shop_6"
+            android:id="@+id/yellow"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Yellow"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/yellow_shop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lareve"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="305dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Le Reve"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/le_reve_shop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/catseye"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="425dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Cats Eye"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/cats_eye_shop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/artisti"
+            android:layout_width="380dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="545dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shop_page_cardview_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="41dp"
+                android:text="Artisti"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/artisti_shop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sailor"
             android:layout_width="380dp"
             android:layout_height="110dp"
             android:layout_marginLeft="15dp"
@@ -223,7 +223,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/shop_page_shop_7"
+            android:id="@+id/bata"
             android:layout_width="380dp"
             android:layout_height="110dp"
             android:layout_marginLeft="15dp"

@@ -25,7 +25,7 @@
             android:id="@+id/profile_button"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/round_profile_button"
             android:src="@drawable/profile_yellow_vector" />
@@ -34,7 +34,7 @@
             android:id="@+id/homepage_navigationbartext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="96dp"
+            android:layout_marginLeft="78dp"
             android:layout_marginTop="43dp"
             android:text="Hello"
             android:textColor="#000000"
@@ -45,7 +45,7 @@
             android:id="@+id/homepage_firstNametext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="162dp"
+            android:layout_marginLeft="146dp"
             android:layout_marginTop="43dp"
             android:textColor="#000000"
             android:textSize="25dp"
@@ -83,12 +83,22 @@
             android:layout_marginTop="18dp"
             android:background="@drawable/logout_black_vector" />
 
+
+        <ImageView
+            android:id="@+id/about_us_button"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/about_us" />
+
+
         <androidx.appcompat.widget.SearchView
             android:id="@+id/searchbar"
             android:layout_width="345dp"
-            android:layout_height="42dp"
+            android:layout_height="38dp"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="95dp"
+            android:layout_marginTop="102dp"
             android:layout_marginRight="35dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/search_button_background"
@@ -431,8 +441,14 @@
                         android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
+
+
+
         </GridLayout>
+
+
 
 
         <!--<TextView
@@ -468,8 +484,8 @@
         android:id="@+id/verificationText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="17dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="78dp"
         android:text="Email is not verified."
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -479,8 +495,8 @@
         android:id="@+id/textAsVerifyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="156dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="222dp"
         android:text="Send Link!"
         android:textStyle="bold"
         android:textColor="@color/black"

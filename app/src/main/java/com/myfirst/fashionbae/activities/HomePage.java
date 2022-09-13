@@ -89,8 +89,9 @@ public class HomePage extends AppCompatActivity {
 
      public void clickListener(){
          ImageButton profile = findViewById(R.id.profile_button);
+         ImageView AboutUs = findViewById(R.id.about_us_button);
          ImageView cart = findViewById(R.id.cart_button);
-         ImageView order = findViewById(R.id.order_button);
+         ImageView Order = findViewById(R.id.order_button);
          ImageView setting = findViewById(R.id.settings_button);
          ImageView logout = findViewById(R.id.logout_button);
          RelativeLayout Shop = findViewById(R.id.homepageShops);
@@ -197,11 +198,30 @@ public class HomePage extends AppCompatActivity {
              }
          });
 
+         AboutUs.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 openAboutUs();
+             }
+         });
+
+         Order.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 openOrder();
+             }
+         });
+
     }
 
     public void openShop(){
 
         startActivity(new Intent(HomePage.this, ShopActivity.class));
+    }
+
+    public void openOrder(){
+
+        startActivity(new Intent(HomePage.this, OrderActivity.class));
     }
 
     public  void openShirt(){
@@ -253,6 +273,10 @@ public class HomePage extends AppCompatActivity {
 
     public  void  openAddToCart(){
         startActivity(new Intent(HomePage.this, AddToCart.class));
+    }
+
+    public  void  openAboutUs(){
+        startActivity(new Intent(HomePage.this, About_us.class));
     }
 
 

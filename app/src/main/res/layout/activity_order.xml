@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    android:background="#F4BC1C">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Order Details"
+            android:textColor="@color/Black"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/brandname_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Brand Name : "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/category_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Category : "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/size_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Size : "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/address_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Your Location :"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/quantity_o"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Total Quantity : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:id="@+id/orderbtn_o"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>

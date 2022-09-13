@@ -14,4 +14,12 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string-array name="PaymentMethods">
+        <item>bKash</item>
+        <item>Nagad</item>
+        <item>Cash on Delivery</item>
+        <item>Visa Card</item>
+        <item>Paypal</item>
+    </string-array>
+
 </resources>
